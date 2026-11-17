@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "name": "SceneInputs",
+    "maps": [
+        {
+            "name": "Sceneloader",
+            "id": "6e93c18e-13d1-436f-b2ac-48d5820d7869",
+            "actions": [
+                {
+                    "name": "LoadScene1",
+                    "type": "Button",
+                    "id": "475eace6-dc40-46d7-a201-0b98c9f6cbad",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LoadScene2",
+                    "type": "Button",
+                    "id": "92c97085-6234-47ff-a5f4-ea38d3b84695",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5b4ccdbe-0b52-4e7d-b355-7ef54cf8ac5c",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LoadScene1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ab5ba6da-16be-4520-ac41-11e3bb3c8988",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LoadScene2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
